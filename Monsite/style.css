@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9+Charted&display=swap');
+
+body {
+    font-family: 'Advent Pro',serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+h2{
+   
+    text-transform: uppercase;
+    text-align:  center;
+    padding: 30px;
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+overflow: hidden;
+background-color: #ffae1f;
+position: fixed;
+width: 100%;
+opacity: 0.9;
+}
+header li{
+    float: right;
+    font-size: 1.2em;
+}
+header li a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 18px 16px;
+}
+
+#logo{
+    
+    font-family: 'Dancing script', cursive;
+    font-weight: bold;
+    float: left;
+}
+#imagePrincipale{
+    padding-top: 60px;
+    background:url(image/femme_marchant.jpeg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 6em;
+    margin-top: 100px;
+    box-shadow: 1px 3px 2px  blue;
+}
+#premierTrait {
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #ffae1f;
+}
+
+h3{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px  blue;
+}

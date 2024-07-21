@@ -1,0 +1,17 @@
+<?php
+function genererMatricule($longueur) {
+    $caracteres = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $matricule = '';
+    $max = strlen($caracteres) - 1;
+    
+    for ($i = 0; $i < $longueur; $i++) {
+        $matricule .= $caracteres[rand(0, $max)];
+    }
+    
+    return $matricule;
+}
+
+// Exemple d'utilisation pour générer un matricule de 8 caractères
+$matricule = genererMatricule(8);
+echo "Matricule généré : $matricule";
+?>
